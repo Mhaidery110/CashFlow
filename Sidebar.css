@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .container{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 4%;
+  }
+  
+  main{
+    width: 150%;
+    padding: 10px 10px;
+  }
+  
+  .sidebar{
+    background-color: whitesmoke;
+    position: relative;
+    color: black;
+    height: 100vh;
+    width: 3000px;
+    transition: all 0.5s;
+  }
+  
+  .top-section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+  }
+  
+  .logo{
+    font-size: 30px;
+  }
+  
+  .bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  
+  .link{
+    display: flex;
+    color: black;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  
+  .link:hover{
+    background-color: mediumspringgreen;
+    color: black;
+    transition: all 0.5s;
+  }
+  
+  .active{
+    background-color: mediumspringgreen;
+    color: black;
+  }
+  
+  .icon, .link-text{
+    font-size: 20px;
+  }
